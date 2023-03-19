@@ -4,6 +4,8 @@ body {
   background-image: url(../img/background.jpg);
 }
 
+
+/* GENERAL */
 .main{
   display: flex;
   flex-direction: column;
@@ -89,7 +91,22 @@ body {
   font-family: 'Orbitron', sans-serif;
 }
 
+#footer{
+  height: 30vh;
+  width: 100vw;
 
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+
+  background: rgb(0,0,0,0.8);
+}
+
+
+
+/* HOME */
 #parkView{
   width: 100vw;
   height: 100vh;
@@ -125,23 +142,85 @@ body {
   font-family: 'Orbitron', sans-serif;
 }
 
-#footer{
-  height: 30vh;
+
+
+/* MENU */
+
+#menu{
+  display: flex;
+  flex-direction: column;
+}
+
+.menu{
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
   width: 100vw;
+}
 
+#menu1{
+  width: 100vw;
+  height: 65vh;
 
-  margin-top: 5em;
-  align-items: center;
-  justify-content: center;
-  font-size: 1em;
+  margin-top: 5vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+
+}
+
+.menuTitle{
+  font-size: 2em;
   font-family: 'Orbitron', sans-serif;
-  color: white;
 
-  background: rgb(0,0,0,0.8);
+  width: 30vw;
+}
+
+.menuContent{
+  font-size: 0.5em;
+}
+
+.menuPic {
+  width: 30vw;
+  height: 50vh;
+
+  margin-top: vh;
+}
+
+.split2{
+  height: 60vh;
+  width: 0.2vw;
+
+  background-color: black;
+  border-radius: 75%;
+}
+
+.underline2{
+  height: 0.2vh;
+  width: 100vw;
+  background-color: black;
+  border-radius: 75%;
+  margin-top: 5vh;
+}
+
+#menu2{
+  width: 100vw;
+  height: 80vh;
+
+  margin-top: 5vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+
 }
 
 @media (max-width: 830px) {
 
+  /* GENERAL */
   .main{
     display: flex;
     flex-direction: column;
@@ -229,6 +308,21 @@ body {
     font-family: 'Orbitron', sans-serif;
   }
   
+  #footer{
+    height: 25vh;
+    width: 100vw;
+
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7em;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+  
+    background: rgb(0,0,0,0.8);
+  }
+
+
+  /* HOME */
   
   #parkView{
     width: 100vw;
@@ -273,22 +367,14 @@ body {
     font-size: 0.8em;
     font-family: 'Orbitron', sans-serif;
   }
-  
-  #footer{
-    height: 25vh;
-    width: 100vw;
 
-    align-items: center;
-    justify-content: center;
-    font-size: 0.7em;
-    font-family: 'Orbitron', sans-serif;
-    color: white;
-  
-    background: rgb(0,0,0,0.8);
-  }
+
+  /* MENU */
 }
 
 @media (min-width: 850px) and (max-width: 1400px) {
+
+  /* GENERAL */
   .main{
     display: flex;
     flex-direction: column;
@@ -374,6 +460,23 @@ body {
     font-family: 'Orbitron', sans-serif;
   }
   
+  #footer{
+    height: 20vh;
+    width: 100vw;
+  
+  
+    margin-top: 5em;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8em;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+  
+    background: rgb(0,0,0,0.8);
+  }
+
+
+  /* HOME */
   
   #parkView{
     width: 100vw;
@@ -409,19 +512,8 @@ body {
     font-size: 1.5em;
     font-family: 'Orbitron', sans-serif;
   }
+
+
+  /* MENU */
   
-  #footer{
-    height: 20vh;
-    width: 100vw;
-  
-  
-    margin-top: 5em;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.8em;
-    font-family: 'Orbitron', sans-serif;
-    color: white;
-  
-    background: rgb(0,0,0,0.8);
-  }
 }
