@@ -2,7 +2,7 @@
 
 Proyecto creado como ejercicio para GeeksHub Academy.
 
-Pueden abrir el proyecto en Git Hub Pages con el siguiente [Enlace](https://matias.ma/)
+Pueden abrir el proyecto en Git Hub Pages con el siguiente [Enlace](https://wilberev.github.io/Proyecto-2---Menu-Restaurante/)
 
 El objetivo de este proyecto es crear una web con una pagina principal, una pagina de contacto y un Menu para un restaurante.\
 En el caso de este proyecto, se ha creado en base a Galaxy's Edge, una atracción de Walt Disney World Resort que incluye una serie de puestos de comida a los que se hace referencia en el proyecto.
