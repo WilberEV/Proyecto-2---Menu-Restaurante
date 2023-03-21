@@ -265,7 +265,7 @@ body {
   font-family: 'Orbitron', sans-serif;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 915px) {
 
   /* GENERAL */
   .main{
@@ -536,7 +536,7 @@ height: 0;
 }
 
 
-@media (min-width: 850px) and (max-width: 1400px) {
+@media (min-width: 920px) and (max-width: 1400px) {
 
   /* GENERAL */
   .main{
