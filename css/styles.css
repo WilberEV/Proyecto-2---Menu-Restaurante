@@ -4,30 +4,35 @@ body {
   background-image: url(../img/background.jpg);
 }
 
-
 /* GENERAL */
-.main{
+.main {
   display: flex;
   flex-direction: column;
 
   height: 100%;
-  width: 100vw;  
+  width: 100vw;
 
-  background: rgb(254,254,254);
-  background: linear-gradient(243deg, rgba(254,254,254,0.5) 0%, rgba(246,246,246,0.7511205165660014) 100%, rgba(97,97,97,0.6222689759497548) 100%); 
+  background: rgb(254, 254, 254);
+  background: linear-gradient(
+    243deg,
+    rgba(254, 254, 254, 0.5) 0%,
+    rgba(246, 246, 246, 0.7511205165660014) 100%,
+    rgba(97, 97, 97, 0.6222689759497548) 100%
+  );
 }
 
-.img_container{
+
+.img_container {
   height: 70vh;
   width: 100vw;
   justify-content: center;
 }
 
-.bg-body-tertiary{
+.bg-body-tertiary {
   font-weight: 600;
 }
 
-#navbar{
+#navbar {
   position: sticky;
   top: 0;
 }
@@ -35,7 +40,6 @@ body {
 #frame {
   height: 100%;
   width: 100vw;
-
 
   display: flex;
   flex-direction: column;
@@ -53,15 +57,14 @@ body {
 
   align-items: center;
   justify-content: center;
-
 }
 
-#logo{
+#logo {
   margin-right: 5vw;
   margin-top: 5vh;
 }
 
-#title{
+#title {
   height: 100%;
   width: 100%;
 
@@ -71,45 +74,41 @@ body {
   align-items: start;
 }
 
-.title{
-
+.title {
   margin-top: 10vh;
   font-size: 5em;
   font-weight: bolder;
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
 }
 
-#underline{
+#underline {
   height: 0.35vh;
   width: 35vw;
   background-color: black;
   border-radius: 75%;
 }
 
-.subtitle{
+.subtitle {
   font-size: 3em;
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
 }
 
-#footer{
-  height: 30vh;
+#footer {
   width: 100vw;
 
   align-items: center;
   justify-content: center;
   font-size: 1em;
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
   color: white;
 
-  background: rgb(0,0,0,0.8);
+  background: rgb(0, 0, 0, 0.8);
 }
 
-
-
 /* HOME */
-#parkView{
+#parkView {
   width: 100vw;
-  height: 100vh;
+
   display: flex;
   flex-direction: row;
 
@@ -117,12 +116,11 @@ body {
   align-items: center;
 }
 
-.parkView{
+.parkView {
   width: 60vw;
-  height: 80vh;
 }
 
-#split{
+#split {
   height: 90vh;
   width: 0.2vw;
 
@@ -130,35 +128,31 @@ body {
   border-radius: 75%;
 }
 
-#description{
-  margin-top: 25vh;
-  height: 80vh;
+#description {
   width: 30vw;
   margin-right: 5vw;
 }
 
-.description{
+.description {
   font-size: 2em;
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
 }
-
-
 
 /* MENU */
 
-#menu{
+#menu {
   display: flex;
   flex-direction: column;
 }
 
-.menu{
+.menu {
   display: flex;
   flex-direction: column;
   height: 70vh;
   width: 100vw;
 }
 
-#menu1{
+#menu1 {
   width: 100vw;
   height: 65vh;
 
@@ -168,15 +162,14 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   align-content: center;
-
 }
 
-.menuTitle{
+.menuTitle {
   font-size: 2em;
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
 }
 
-.menuContent{
+.menuContent {
   font-size: 0.5em;
 }
 
@@ -187,7 +180,7 @@ body {
   margin-top: 5vh;
 }
 
-.split2{
+.split2 {
   height: 60vh;
   width: 0.2vw;
 
@@ -195,7 +188,7 @@ body {
   border-radius: 75%;
 }
 
-.underline2{
+.underline2 {
   height: 0.2vh;
   width: 100vw;
   background-color: black;
@@ -203,7 +196,7 @@ body {
   margin-top: 5vh;
 }
 
-#menu2{
+#menu2 {
   width: 100vw;
   height: 80vh;
 
@@ -213,12 +206,11 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   align-content: center;
-
 }
 
 /* CONTACT */
 
-#contactDetails{
+#contactDetails {
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -228,12 +220,12 @@ body {
   align-items: center;
 }
 
-.contactPic{
+.contactPic {
   width: 30vw;
   height: 80vh;
 }
 
-#contacInfo{
+#contacInfo {
   margin-top: 25vh;
   height: 80vh;
   width: 60vw;
@@ -241,17 +233,16 @@ body {
   flex-direction: column;
 }
 
-.contactTitle{
+.contactTitle {
   font-size: 2.5em;
-  font-family: 'Orbitron', sans-serif;
-
+  font-family: "Orbitron", sans-serif;
 }
 
-.contactInfo{
+.contactInfo {
   font-size: 1.5em;
 }
 
-.underline3{
+.underline3 {
   height: 0.35vh;
   width: 60vw;
   background-color: black;
@@ -260,145 +251,139 @@ body {
 
 /* RESTAURANTS */
 
-.slogan{
+.slogan {
   font-size: 2em;
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
 }
 
 @media (max-width: 915px) {
-
   /* GENERAL */
-  .main{
+  .main {
     display: flex;
     flex-direction: column;
-  
+
     height: 100%;
-    width: 100vw;  
-  
-    background: rgb(254,254,254);
-    background: linear-gradient(243deg, rgba(254,254,254,0.5) 0%, rgba(246,246,246,0.7511205165660014) 100%, rgba(97,97,97,0.6222689759497548) 100%); 
+    width: 100vw;
+
+    background: rgb(254, 254, 254);
+    background: linear-gradient(
+      243deg,
+      rgba(254, 254, 254, 0.5) 0%,
+      rgba(246, 246, 246, 0.7511205165660014) 100%,
+      rgba(97, 97, 97, 0.6222689759497548) 100%
+    );
   }
-  
-  .img_container{
+
+  .img_container {
     height: 30vh;
     width: 100vw;
     justify-content: center;
   }
-  
-  .bg-body-tertiary{
+
+  .bg-body-tertiary {
     font-weight: 600;
   }
-  
-  #navbar{
+
+  #navbar {
     position: sticky;
     top: 0;
   }
-  
+
   #frame {
     height: 100%;
     width: 100vw;
-  
-  
+
     display: flex;
     flex-direction: column;
-  
+
     justify-content: space-between;
     align-items: center;
   }
-  
+
   #header {
     height: 20vh;
     width: 100vw;
-  
+
     display: flex;
     flex-direction: row;
-  
+
     align-items: start;
     justify-content: space-evenly;
   }
-  
-  #logo{ 
+
+  #logo {
     margin-left: 5vw;
     height: 12vh;
     width: 12vh;
   }
-  
-  #title{
+
+  #title {
     height: 10vh;
     width: 80vw;
-  
+
     display: flex;
     flex-direction: column;
-  
+
     align-items: center;
     justify-content: center;
 
     margin-left: -10vw;
   }
-  
-  .title{
+
+  .title {
     font-size: 1.5em;
     font-weight: bolder;
-    font-family: 'Orbitron', sans-serif;
-    
+    font-family: "Orbitron", sans-serif;
   }
-  
-  #underline{
+
+  #underline {
     height: 0.15vh;
     width: 50vw;
     background-color: black;
     border-radius: 75%;
   }
-  
-  .subtitle{
+
+  .subtitle {
     font-size: 1em;
-    font-family: 'Orbitron', sans-serif;
+    font-family: "Orbitron", sans-serif;
   }
-  
-  #footer{
-    height: 25vh;
+
+  #footer {
     width: 100vw;
-
-    margin-top: 5vh;
-
     align-items: center;
     justify-content: center;
     font-size: 0.7em;
-    font-family: 'Orbitron', sans-serif;
+    font-family: "Orbitron", sans-serif;
     color: white;
-  
-    background: rgb(0,0,0,0.8);
+
+    background: rgb(0, 0, 0, 0.8);
   }
 
-
   /* HOME */
-  
-  #parkView{
+
+  #parkView {
     width: 100vw;
-    height: 50vh;
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: start;
   }
 
-  .parkView{
+  .parkView {
     width: 100%;
-    height: 100%;
   }
 
-  #split{
+  #split {
     height: 0;
     width: 0;
   }
-  
-  #description{
+
+  #description {
     width: 100vw;
-    height: 20vh;
 
     margin-top: 5vh;
     margin-right: 0;
-    margin-bottom: -10vh;
 
     display: flex;
     flex-direction: column;
@@ -407,356 +392,109 @@ body {
     justify-content: center;
   }
 
-  .description{
-    height: 20vh;
+  .description {
     width: 100vw;
 
     margin-left: 3vw;
 
     font-size: 0.8em;
-    font-family: 'Orbitron', sans-serif;
+    font-family: "Orbitron", sans-serif;
   }
-
 
   /* MENU */
 
-#menu{
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  width: 100vw;
-
-  justify-content: space-evenly;
-}
-
-.menu{
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  width: 100vw;
-}
-
-#menu1{
-  width: 100vw;
-  height: 100%;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-
-}
-
-.menuTitle{
-  font-size: 1em;
-  font-family: 'Orbitron', sans-serif;
-}
-
-.menuContent{
-  font-size: 0.75em;
-}
-
-.menuPic {
-  width: 100vw;
-  height: 30vh;
-
-}
-
-.split2{
-  height: 0vh;
-
-}
-
-.underline2{
-height: 0;
-}
-
-#menu2{
-  width: 100vw;
-  height: 100%;
-
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-content: center;
-}
-
-
-/* CONTACT */
-
-#contactDetails{
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-
-  justify-content: space-around;
-  align-items: center;
-
-  margin-bottom: 5vh;
-}
-
-.contactPic{
-  margin-top: 5vh;
-
-  width: 100vw;
-  height: 80vh;
-}
-
-#contacInfo{
-
-  height: 80vh;
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-}
-
-.contactTitle{
-  font-size: 1.5em;
-  font-family: 'Orbitron', sans-serif;
-
-}
-
-.contactInfo{
-  font-size: 1em;
-}
-
-.underline3{
-  height: 0;
-}
-
-/* RESTAURANTS */
-
-.slogan{
-  font-size: 1em;
-  font-family: 'Orbitron', sans-serif;
-}
-
-}
-
-
-@media (min-width: 920px) and (max-width: 1400px) {
-
-  /* GENERAL */
-  .main{
+  #menu {
     display: flex;
     flex-direction: column;
-  
-    height: 100%;
-    width: 100vw;  
-  
-    background: rgb(254,254,254);
-    background: linear-gradient(243deg, rgba(254,254,254,0.5) 0%, rgba(246,246,246,0.7511205165660014) 100%, rgba(97,97,97,0.6222689759497548) 100%); 
-  }
-  
-  .img_container{
-    height: 70vh;
-    width: 100vw;
-    justify-content: center;
-  }
-  
-  .bg-body-tertiary{
-    font-weight: 600;
-  }
-  
-  #navbar{
-    position: sticky;
-    top: 0;
-  }
-  
-  #frame {
     height: 100%;
     width: 100vw;
-  
-  
+
+    justify-content: space-evenly;
+  }
+
+  .menu {
     display: flex;
     flex-direction: column;
-  
-    justify-content: center;
-    align-items: center;
-  }
-  
-  #header {
     height: 100%;
-    width: 100%;
-  
-    display: flex;
-    flex-direction: row;
-  
-    align-items: center;
-    justify-content: center;
-  
+    width: 100vw;
   }
-  
-  #logo{
-    margin-right: 5vw;
-    margin-top: 5vh;
-  }
-  
-  #title{
+
+  #menu1 {
+    width: 100vw;
     height: 100%;
-    width: 100%;
-  
+
     display: flex;
     flex-direction: column;
-  
-    align-items: start;
+    justify-content: center;
+    align-content: center;
   }
-  
-  .title{
-  
-    margin-top: 10vh;
-    font-size: 3em;
-    font-weight: bolder;
-    font-family: 'Orbitron', sans-serif;
+
+  .menuTitle {
+    font-size: 1em;
+    font-family: "Orbitron", sans-serif;
   }
-  
-  #underline{
-    height: 0.35vh;
-    width: 35vw;
-    background-color: black;
-    border-radius: 75%;
+
+  .menuContent {
+    font-size: 0.75em;
   }
-  
-  .subtitle{
-    font-size: 2em;
-    font-family: 'Orbitron', sans-serif;
-  }
-  
-  #footer{
+
+  .menuPic {
+    width: 100vw;
     height: 30vh;
-    width: 100vw;
-  
-  
-    margin-top: 5em;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.8em;
-    font-family: 'Orbitron', sans-serif;
-    color: white;
-  
-    background: rgb(0,0,0,0.8);
   }
 
+  .split2 {
+    height: 0vh;
+  }
 
-  /* HOME */
-  
-  #parkView{
+  .underline2 {
+    height: 0;
+  }
+
+  #menu2 {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
+
     display: flex;
-    flex-direction: row;
-  
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+  }
+
+  /* CONTACT */
+
+  #contactDetails {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+
     justify-content: space-around;
     align-items: center;
   }
-  
-  .parkView{
-    width: 60vw;
-    height: 80vh;
+
+  #contacInfo {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
   }
-  
-  #split{
-    height: 90vh;
-    width: 0.2vw;
-  
-    background-color: black;
-    border-radius: 75%;
-  }
-  
-  #description{
-    margin-top: 25vh;
-    height: 80vh;
-    width: 30vw;
-    margin-right: 5vw;
-  }
-  
-  .description{
+
+  .contactTitle {
     font-size: 1.5em;
-    font-family: 'Orbitron', sans-serif;
+    font-family: "Orbitron", sans-serif;
   }
 
+  .contactInfo {
+    font-size: 1em;
+  }
 
-  /* MENU */
+  .underline3 {
+    height: 0;
+  }
 
-#menu{
-  display: flex;
-  flex-direction: column;
-}
+  /* RESTAURANTS */
 
-.menu{
-  display: flex;
-  flex-direction: column;
-  height: 70vh;
-  width: 100vw;
-}
-
-#menu1{
-  width: 100vw;
-  height: 65vh;
-
-  margin-top: 5vh;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-content: center;
-
-}
-
-.menuTitle{
-  font-size: 1em;
-  font-family: 'Orbitron', sans-serif;
-
-  width: 30vw;
-}
-
-.menuContent{
-  font-size: 0.67em;
-}
-
-.menuPic {
-  width: 30vw;
-  height: 50vh;
-
-  margin-top: 5vh;
-}
-
-.split2{
-  height: 60vh;
-  width: 0.2vw;
-
-  background-color: black;
-  border-radius: 75%;
-}
-
-.underline2{
-  height: 0.2vh;
-  width: 100vw;
-  background-color: black;
-  border-radius: 75%;
-  margin-top: 5vh;
-}
-
-#menu2{
-  width: 100vw;
-  height: 80vh;
-
-  margin-top: 5vh;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-content: center;
-
-}
-
-/* RESTAURANTS */
-
-.slogan{
-  font-size: 1.5em;
-  font-family: 'Orbitron', sans-serif;
-}
-
+  .slogan {
+    font-size: 1em;
+    font-family: "Orbitron", sans-serif;
+  }
 }
